@@ -1,0 +1,240 @@
+$title_color: #636363;
+$my_orange: #ed7c31;
+/*   css  of all html */
+body{
+  background-color: #e6e6e6;
+}
+#container1 .container-fluid {
+  background-color: $my_orange;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  }
+#container1 {
+    a {
+    color: black;
+    }
+}
+ h3{
+  padding-top:20px;
+  text-align: center;
+  color: gray
+  }
+#container1 {
+  actual{
+  color: black;
+  font-weight: bold;
+   }
+ }
+
+/*   media responsive*/
+@media (min-width: 576px) {
+  /*   css media of all html */
+  .top_image{
+    width: 100%;
+  }
+  /* css media of allergy */
+  .skinprick_image{
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-left:20%;
+    padding-right:20%;
+  }
+  /*   css media of Contact  */
+  #container2 .container-fluid form input{
+        border: solid 1px;
+        height: 35px;
+        width: 40%;
+
+      }
+  #container2 .container-fluid form input[type = "textarea"]{
+        border: solid 1px;
+        height: 110px;
+        width: 40%;
+
+
+      }
+  #container2 .container-fluid form button{
+        border: none;
+        background: $my_orange;
+        width: 40%
+      }
+  }
+@media (max-width: 575px) {
+  /*   css media of all html */
+  .top_image{
+      display: none;
+  }
+  .skinprick_image{
+    display: none;
+  }
+  /*   css media of Contact  */
+  #container2 .container-fluid form input{
+        border: solid 1px;
+        height: 35px;
+        width: 70%;
+      }
+  #container2 .container-fluid form input[type = "textarea"]{
+        border: solid 1px;
+        height: 90px;
+        width: 70%;
+
+      }
+  #container2 .container-fluid form button{
+        border: none;
+        background: $my_orange;
+        width: 70%
+      }
+  }
+
+
+/* css of home*/
+#title {
+  h1{
+
+  font-size: 40px;
+  padding-top: 200px;
+  color: white;
+  }
+}
+#title p{
+
+  font-size: 20px;
+  padding-top: 15px;
+  color: darkgray;
+}
+#title h2{
+
+  font-size: 30px;
+  padding-top: 10px;
+  color: $my_orange;
+}
+#title h1, p, h2{
+  text-align: center;
+}
+#home_button{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+#home_button button{
+  border: none;
+  background: gray;
+  width: 30%;
+   border-radius: 5px;
+}
+#home_button button text1{
+  padding-top:  10px;
+  color: white;
+  font-size: 25px;
+}
+/*   css of allergy */
+#aller_txt h1{
+  color: $title_color;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+#aller_txt h3{
+    color: $title_color;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+#aller_txt>p{
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+#container1_aller h2{
+  color: $title_color;
+  text-align: left;
+  padding-top: 18%;
+  padding-left: 90px;
+  padding-right: 20px;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+#container1_aller ul{
+  color: gray;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+#container1_aller ul>li{
+  text-align: left;
+  padding-top: 7px
+}
+.firts_image{
+    width: 100%;
+    padding-top: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+#aller_txt ul{
+  color: gray;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  }
+#aller_txt ul>li{
+    text-align: left;
+    padding-top: 20px
+  }
+
+/*   css of about us  */
+#about_container h1{
+  color: $title_color;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 10px
+}
+#about_container p{
+  color: gray;
+  text-align: left;
+
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+/*   css of Contact  */
+#contact h3 {
+  font-size: 35px;
+  padding-top:0px;
+  text-align: center;
+  color: $title_color
+  }
+#contact h4 {
+  font-size: 20px;
+  padding-bottom:10px;
+  text-align: center;
+  color: gray
+  }
+#container2 .container-fluid {
+  background-color: #e6e6e6;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  width: 100%
+}
+#container2 .container-fluid form {
+  margin: 0 0 12px;
+  width: 100%
+}
